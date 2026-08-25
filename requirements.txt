@@ -1,0 +1,9 @@
+# Runtime dependencies of the application itself: NONE beyond the Python
+# standard library (3.10+). Retrieval is a local TF-IDF vector index and the
+# optional LLM client uses urllib.
+#
+# Development / evaluation dependencies:
+pytest>=8.0
+
+# Optional, only needed to regenerate the README demo GIF:
+# pillow>=10.0
